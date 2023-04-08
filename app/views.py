@@ -47,5 +47,5 @@ class DestroyView(RetrieveUpdateDestroyAPIView):
     def get_permissions(self):
         if self.request.method == "GET":
 
-            return ['this is new commit']
+            return ['this is new ']
         return super().get_permissions()
